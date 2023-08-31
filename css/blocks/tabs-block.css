@@ -47,11 +47,13 @@
   fill: var(--color-light-blue);
 }
 
-.tab:hover {
+.tab:hover,
+.tab:focus {
   box-shadow: inset 0 0 0 2px var(--color-blue);
 }
 
-.tab:hover svg {
+.tab:hover svg,
+.tab:focus svg {
   transition: fill var(--transition-base);
   fill: var(--color-blue);
 }

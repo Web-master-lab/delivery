@@ -8,7 +8,9 @@
     "url": "{{sshUrl}}"
   },
   "devDependencies": {
-    "browser-sync": "2.27.7"
+    "browser-sync": "2.27.7",
+    "eslint": "8.7.0",
+    "eslint-config-htmlacademy": "^5.0.0"
   },
   "license": "MIT",
   "scripts": {
